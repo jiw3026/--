@@ -1,0 +1,209 @@
+hello world!
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>졸업체크리스트</title>
+  </head>
+  <body>
+    <img src="codin.jfif" alt="">
+    <h2>How to use</h2>
+    <ol>
+      <li>숙명포털</li>
+      <li>빈 칸에 수강학점을 정확히 입력하세요.</li>
+      <li>결과 확인 후<br>학과 사무실에 연락하세요.</li>
+      </ol>
+      <table border="solid">
+        <caption>기본정보</caption>
+        <tr>
+          <th>입학연도</th>
+          <th>제2전공</th>
+        </tr>
+        <tr>
+          <td>
+            <select class="">
+              <option value="">___</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+            </select>
+          </td>
+          <td>
+            <select class="">
+              <option value="">___</option>
+              <option value="">심화전공</option>
+              <option value="">복수전공</option>
+              <option value="">연계전공</option>
+              <option value="">부전공</option>
+              <option value="">자율설계전공</option>
+            </select>
+          </td>
+        <tr>
+          <td>2021</td>
+        <td>심화전공</td>
+        </tr>
+      </table>
+      <table border="solid">
+        <caption>교양영역</caption>
+        <tr>
+          <th colspan="2">이수구분</th>
+          <th>최소학점</th>
+          <th>최대학점</th>
+          <th colspan="2">이수학점</th>
+        </tr>
+        <tr>
+          <th rowspan="3">교양필수</th>
+          <th>국어</th>
+          <td>국어최소</td>
+          <td>국어최대</td>
+          <td colspan="2">
+            <select class="" id="korean credits">
+              <option value="0">0</option>
+              <option value="2">2</option>
+          </select>
+          <label for="korean credits"> 학점</label>
+        </td>
+      </tr>
+        <tr>
+          <th>영어</th>
+          <td>영어최소</td>
+          <td>영어최대</td>
+          <td colspan="2">
+          <select class="" id="english credits">
+            <option value="0">0</option>
+            <option value="2">2</option>
+          </select>
+            <label for="english credits"> 학점</label>
+          </td>
+      </tr>
+
+
+        <tr>
+          <th>기타</th>
+          <td>기타최소</td>
+          <td>기타최대</td>
+          <select class="" id="etc credits">
+            <option value="0">0</option>
+            <option value="2">2</option>
+            <label for="etc credits"> 학점</label>
+      </tr>
+        <tr>
+          <th colspan="2" rowspan="5">핵심교양</th>
+          <td  rowspan="5">핵심최소</td>
+          <td  rowspan="5">핵심최대</td>
+          <td rowspan="5">핵심학점</td>
+       </tr>
+        <tr>
+          <td>
+            <input type="checkbox" value="" id="core1"><label for="core1">도전</td></label>
+          <td rowspan="5">
+            <input type="number" value="">
+           <input type="checkbox" value=""id="core2"><label for="core2">창의</td></label>
+        </tr>
+        <tr>
+          <td>
+          <input type="checkbox" value="" id="core3"><label for="core3">>융합</td></label>
+        </tr>
+        <tr>
+          <td>
+        <input type="checkbox" value="" id="core4"><label for="core4">>신뢰</td></label>
+        </tr>
+        <tr>
+          <td>
+        <input type="checkbox" value="" id="core5"><label for="core5">>소통</td></label>
+        </tr>
+        <tr>
+          <th>선택교양</th>
+            <th>선택최소</th>
+              <th>선택최대</th>
+              <td colspan="2">
+                <input type="number" value="" id=""><label for=""> 학점</label>
+              </td>
+                <th>선택학점</th>
+        </tr>
+      </table>
+      <table border="solid">
+        <caption>전공영역</caption>
+        <tr>
+          <th>이수구분</th>
+          <th>최소학점</th>
+          <th colspan="3">이수학점</th>
+        </tr>
+        <tr>
+          <th>전공선택</th>
+          <td>전공선택최소학점</td>
+          <td colspan="3">전공선택이수학점</td>
+          <input type="number" value="">
+        </td>
+        </tr>
+        <tr>
+          <th>전공필수</th>
+          <td>전공필수최소학점</td>
+          <td colspan="3">전공필수이수학점</td>
+          <input type="number" value="">
+        </tr>
+        <tr>
+          <th>복수전공</th>
+          <td>복수전공최소학점</td>
+          <td colspan="3">복수전공이수학점</td>
+          <input type="number" value="">
+        </tr>
+        <tr>
+          <th>연계전공></th>
+          <td>연계전공최소학점</td>
+          <td colspan="3">연계전공이수학점</td>
+          <input type="number" value="">
+        </tr>
+        <tr>
+          <th>부전공</th>
+          <td>부전공최소학점</td>
+          <td colspan="3">부전공이수학점</td>
+          <input type="number" value="">
+        </tr>
+        <tr>
+          <th>심화전공</th>
+          <td>심화전공최소학점</td>
+          <td colspan="3">심화전공이수학점</td>
+          <input type="number" value="">
+        </tr>
+        <tr>
+          <th>자율설계전공</th>
+          <td>자율설계전공최소학점</td>
+          <td colspan="3">자율설계전공이수학점</td>
+          <input type="number" value="">
+        </tr>
+        <tr>
+          <th>교직</th>
+          <td>교직최소학점</td>
+          <td colspan="3">교직이수학점</td>
+          <input type="number" value="">
+        </tr>
+        <tr>
+          <th>총 이수학점</th>
+          <td colspan="3">최소 이수학점</td>
+          <input type="number" value="">
+        </tr>
+      </table>
+      <br>
+      <table border = "solid">
+        <tr>
+            <th>구분</th>
+            <th>통과 여부</th>
+                <th>이수 기준</th>
+        </tr>
+        <tr>
+            <td rowspan ='2'>졸업인증제</td>
+            <td>영어</td>
+            <td>졸업시험</td>
+            <td>정보인증제</td>
+          </tr>
+          <tr>
+            <th colspan ="2"> 전 학년 평점</th>
+          <td>
+            <input type="number" value=""><label for="GPA">/4.3</label>
+          </td>
+            <td>평점입력</td>
+  </body>
+</html>
